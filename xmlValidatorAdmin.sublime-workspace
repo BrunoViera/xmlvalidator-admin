@@ -396,28 +396,28 @@
 	"buffers":
 	[
 		{
-			"file": "dashboard.html",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 2181,
+				"buffer_size": 465,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "app/routes/routes.js",
 			"settings":
 			{
-				"buffer_size": 1382,
+				"buffer_size": 312,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_base.scss",
+			"file": "xmlValidatorAdmin.sublime-project",
 			"settings":
 			{
-				"buffer_size": 1049,
-				"encoding": "UTF-8",
+				"buffer_size": 822,
 				"line_ending": "Unix"
 			}
 		}
@@ -430,9 +430,17 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "reide",
+		"last_filter": "prefe",
 		"selected_items":
 		[
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
 			[
 				"reide",
 				"Indentation: Reindent Lines"
@@ -440,10 +448,6 @@
 			[
 				"sass",
 				"Set Syntax: Sass"
-			],
-			[
-				"prett",
-				"JsPrettier: Format Code"
 			],
 			[
 				"html",
@@ -538,10 +542,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"prefe",
-				"Preferences: Settings"
-			],
-			[
 				"list ",
 				"Package Control: List Packages"
 			],
@@ -594,7 +594,7 @@
 				"Preferences: Key Bindings"
 			]
 		],
-		"width": 496.0
+		"width": 480.0
 	},
 	"console":
 	{
@@ -618,13 +618,16 @@
 	},
 	"expanded_folders":
 	[
-		"/acilia/xmlvalidator-admin",
-		"/acilia/xmlvalidator-admin/sass"
+		"/acilia/xmlvalidator-admin"
 	],
 	"file_history":
 	[
-		"/acilia/xmlvalidator-admin/sass/app.scss",
+		"/acilia/xmlvalidator-admin/xmlValidatorAdmin.sublime-project",
+		"/acilia/xmlvalidator-admin/dashboard.html",
+		"/acilia/xmlvalidator-admin/sass/_base.scss",
 		"/acilia/xmlvalidator-admin/package.json",
+		"/acilia/xmlvalidator-admin/index.js",
+		"/acilia/xmlvalidator-admin/sass/app.scss",
 		"/acilia/xmlvalidator-admin/login.html",
 		"/acilia/xmlvalidator-admin/registration.html",
 		"/acilia/xmlvalidator-admin/index.html",
@@ -746,11 +749,7 @@
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/base_fullwidth.html.twig",
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout_fullwidth.html.twig",
 		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Decorators/VF Gallery Fullscreen Decorator.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout.html.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/base/base.html.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/modules/site_events.js",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_js/modules/site_events.js",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/modules/site_events.js"
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout.html.twig"
 	],
 	"find":
 	{
@@ -768,6 +767,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"})",
+			"var",
 			"outs",
 			"link",
 			"var"
@@ -788,48 +789,75 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dashboard.html",
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2181,
+						"buffer_size": 465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								599,
-								599
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "index.html",
+					"buffer": 2,
+					"file": "xmlValidatorAdmin.sublime-project",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1382,
+						"buffer_size": 822,
 						"regions":
 						{
 						},
@@ -843,8 +871,8 @@
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -852,36 +880,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sass/_base.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1049,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								877,
-								877
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 168.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1457,19 +1455,19 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "mer",
 		"selected_items":
 		[
-			[
-				"",
-				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
-			],
 			[
 				"mer",
 				"/acilia/Merlin/Merlin.sublime-project"
 			],
 			[
 				"xml",
+				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
+			],
+			[
+				"",
 				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
 			],
 			[
