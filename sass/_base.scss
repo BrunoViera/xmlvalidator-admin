@@ -4,9 +4,51 @@
 }
 
 footer.footer {
+    position: relative;
     padding: 1rem 1.5rem;
 
     p {
         font-size: 0.8rem;
+    }
+}
+body > .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    > .content {
+        margin-left: 175px;
+        height: 100%;
+        padding: 20px;
+        display: block;
+    }
+
+    aside.menu {
+        left: 0;
+        height: 100%;
+        width: 175px;
+        display: inline-block;
+        position: absolute;
+        background: #011627;
+        .menu-list {
+            .menu-label.logo {
+                font-size: 23px;
+                text-align: center;
+                padding: 20px 0 0 0;
+            }
+            li{
+                &.profile {
+                    margin-top: 50px;
+                    span {
+                        color: $white;
+                    }
+                }
+                &.logout {
+                    border-top: 1px solid $turquoise;
+                }
+            }
+        }
     }
 }
