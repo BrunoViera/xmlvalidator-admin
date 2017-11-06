@@ -1,0 +1,1512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"nextI",
+				"nextIndex"
+			],
+			[
+				"func",
+				"function_with_name"
+			],
+			[
+				"styl",
+				"style\t Style CSS"
+			],
+			[
+				"dire",
+				"direction"
+			],
+			[
+				"chaum",
+				"chaumet_section"
+			],
+			[
+				"site",
+				"siteConfig"
+			],
+			[
+				"vanity",
+				"vanityfair"
+			],
+			[
+				"direc",
+				"directionClass"
+			],
+			[
+				"up",
+				"UP"
+			],
+			[
+				"modal",
+				"modalId"
+			],
+			[
+				"openmodal",
+				"openModalFromButton"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ass",
+				"assetsPath"
+			],
+			[
+				"env",
+				"envConfig"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"moda",
+				"modalId"
+			],
+			[
+				"rep",
+				"replace\t( url: DOMString ): void Location"
+			],
+			[
+				"vide",
+				"videoStatus"
+			],
+			[
+				"fore",
+				"forEach"
+			],
+			[
+				"queryse",
+				"querySelectorAll\t( selectors: DOMString ): NodeList Document"
+			],
+			[
+				"chap",
+				"chapter"
+			],
+			[
+				"vog",
+				"voguefashionfestival"
+			],
+			[
+				"Chaumet",
+				"Chaumet_url"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"parse",
+				"parseInt\t( s: string, radix: int ): int Global"
+			],
+			[
+				"query",
+				"querySelector\t( selectors: DOMString ): Element Document"
+			],
+			[
+				"in",
+				"index0"
+			],
+			[
+				"thumb",
+				"thumbnailAction"
+			],
+			[
+				"currents",
+				"currentSlide"
+			],
+			[
+				"add",
+				"add"
+			],
+			[
+				"imga",
+				"imageElement"
+			],
+			[
+				"pool",
+				"poool_widget"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"article",
+				"articleFirstParagraph"
+			],
+			[
+				"adunisi",
+				"adUnitsSizes"
+			],
+			[
+				"Ac",
+				"ACTIVE"
+			],
+			[
+				"ad",
+				"adUnits"
+			],
+			[
+				"oaut",
+				"oauth2Info"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"email",
+				"emailValidator"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"send",
+				"sendUrl"
+			],
+			[
+				"conso",
+				"console_log"
+			],
+			[
+				"geteleme",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"eve",
+				"event"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"stop",
+				"stopPropagation\t(): void Event"
+			],
+			[
+				"else",
+				"else_if"
+			],
+			[
+				"addevent",
+				"addEventListener\t( type: DOMString, callback: EventListener, capture?: boolean ): void EventTarget"
+			],
+			[
+				"src",
+				"srcFreepages"
+			],
+			[
+				"tet",
+				"textAreas"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"i",
+				"images"
+			],
+			[
+				"if",
+				"if\tTwig : If"
+			],
+			[
+				"vflis",
+				"vflist_changeImg"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"img",
+				"imgId"
+			],
+			[
+				"tem",
+				"temId"
+			],
+			[
+				"has",
+				"hasAMPVersion"
+			],
+			[
+				"strrecp",
+				"str_replace"
+			],
+			[
+				"html",
+				"html_entity_decode"
+			],
+			[
+				"domain",
+				"domainId"
+			],
+			[
+				"cont",
+				"contents"
+			],
+			[
+				"content",
+				"contentRepo"
+			],
+			[
+				"pu",
+				"array_push"
+			],
+			[
+				"isn",
+				"is_null"
+			],
+			[
+				"getcla",
+				"get_class"
+			],
+			[
+				"feed",
+				"feedDescription"
+			],
+			[
+				"doain",
+				"domainURL"
+			],
+			[
+				"CONS",
+				"const"
+			],
+			[
+				"ask",
+				"askQuestionRepository"
+			],
+			[
+				"get",
+				"getTotalImagesGallery"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"check",
+				"checkArrows"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"clo",
+				"closeAds"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"con",
+				"contains"
+			],
+			[
+				"thum",
+				"thumbsElements"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"thu",
+				"thumbsTemplate"
+			],
+			[
+				"galler",
+				"galleryTitle"
+			],
+			[
+				"galle",
+				"gallery"
+			],
+			[
+				"gall",
+				"gallery"
+			],
+			[
+				"co",
+				"contains"
+			],
+			[
+				"addeve",
+				"addEventListener"
+			],
+			[
+				"show",
+				"showGallery"
+			],
+			[
+				"defi",
+				"defileType"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"gallery",
+				"galleryRightDisplay"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"slot",
+				"slotDefinition"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dashboard.html",
+			"settings":
+			{
+				"buffer_size": 2181,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 1049,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "reide",
+		"selected_items":
+		[
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"prett",
+				"JsPrettier: Format Code"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"REIDE",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jspre",
+				"JsPrettier: Format Code"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"pretti",
+				"JsPrettier: Format Code"
+			],
+			[
+				"prefer",
+				"Preferences: Settings"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa list",
+				"Package Control: List Packages"
+			],
+			[
+				"pret",
+				"JsPrettier: Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"preferen",
+				"Preferences: Settings"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"shel",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"set yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"jaasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"",
+				"Material Theme: Extras"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 194.0,
+		"history":
+		[
+			"view.run_command(\"goto_line\", {\"line\": 13})",
+			"view.run_command(\"goto_line\", {\"line\": 10})",
+			"ll",
+			"pwd"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/acilia/xmlvalidator-admin",
+		"/acilia/xmlvalidator-admin/sass"
+	],
+	"file_history":
+	[
+		"/acilia/xmlvalidator-admin/sass/app.scss",
+		"/acilia/xmlvalidator-admin/package.json",
+		"/acilia/xmlvalidator-admin/login.html",
+		"/acilia/xmlvalidator-admin/registration.html",
+		"/acilia/xmlvalidator-admin/index.html",
+		"/acilia/xmlvalidator-admin/sass/_login.scss",
+		"/acilia/xmlvalidator-admin/.gitignore",
+		"/acilia/xmlvalidator-admin/sass/_variables.scss",
+		"/acilia/xmlvalidator-admin/sass/_overrides.scss",
+		"/acilia/xmlvalidator-admin/node_modules/bulma/bulma.sass",
+		"/acilia/xmlvalidator-admin/css/app.css",
+		"/acilia/xmlvalidator-admin/gulpfile.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG CHAUMET 2017.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/controllers/chaumet_2017.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Freepages/VOG CHAUMET 2017.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/chaumet2017.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/app.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_js/app.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Templates/Freepages/VF CHAUMET 2017.twig",
+		"/acilia/Merlin/gulp-tasks/vog/js.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/main.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/app.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/mobile_js/freepages/cannes2016.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/cannes2016.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/main.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/fw_ah_16_17.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/mobile_js/freepages.js",
+		"/acilia/Merlin/app/config/vanity/assetic.yml",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Entity/Base/BaseImageEntity.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Services/Utils/ImageUtils.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Twig/Extensions/ImagesExtension.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Entity/UserImages.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/app.js",
+		"/acilia/Merlin/package.json",
+		"/acilia/Merlin/gulp-tasks/vanity/js.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/vendor/jquery.fullpage.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/chaumet2017.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/cannes2017.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/boucheron.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/bmw.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/StickyBanners.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/startLight.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/start.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/GallerySlick.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/concours.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/Acilia.MagnificPopup.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/collections.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/AnclesScroll.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/css/vendor/jquery.fullPage.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/chaumet_2017.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/css/vendor/jquery.fullpage.css",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/css/app.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/css/_freepages/_chaumet2017.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/base.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/DFP/v2/mocks/adUnits/habillage-gq.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/common/Scripts/dfp.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/gq_amp/Templates/Galleries/GQ Gallery.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/glam_amp/Templates/Articles/GLAM Article Infinite Scroll Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/glam_amp/Templates/Galleries/GLAM Gallery Scroll Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/glam/Blocks/Amp/outbrain_widget.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/outbrain_widget.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/gq/Default/base/amp_base.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/balenciaga2017_sept.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG Balenciaga 2017 Sept.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/components.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Blocks/Amp/outbrain_widget.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Blocks/Amp/components.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/gq/css/base/_grid.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/Gigya.js",
+		"/acilia/Merlin/app/config/glam/assetic.yml",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/Acilia.APP.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_gigya.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/controllers/gigya/gigya_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/gigya/gigya_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/vogue_lovers_offer_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Services/Gigya/GigyaAPIService.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/vogue_lovers_offer_content_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/vogue_lovers_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/modules/menu.js",
+		"/Users/Bruce/Desktop/casas.txt",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Freepages/VOG VFF 2017 - Swarovski.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG VFF 2017 - Swarovski.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Freepages/VOG VFF 2017 - Programme.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Twig/Extensions/VOGExtension.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/speakers_alphabet.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_eng_mobile/Templates/Freepages/VOG EN VFF 2017 - Programme.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/programme_day.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_amp/Templates/Galleries/VOG Gallery Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_amp/Templates/Galleries/VOG Gallery Fullscreen Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG VFF 2017 - Programme.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Galleries/VOG Gallery Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/Components/Gallery/content.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Gallery/content.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Galleries/VOG Gallery Template.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/gallery_cntlr.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/modules/gallery.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Blocks/Amp/structured_data.html.twig",
+		"/acilia/Merlin/app/config/vanity/config.yml",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/amp_base.html.twig",
+		"/acilia/Merlin/app/config/vog/config.yml",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/amp_base.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/Amp/structured_data.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/mobile_base.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity_mobile/Templates/Freepages/VF CHAUMET 2017.twig",
+		"/acilia/Merlin/gulp-tasks/vog/css.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_css/freepages/chaumet2017.scss",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/modules/a_concours.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Repository/NavigationsRepository.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Navigations/VOG HR Lovers.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Controller/vog/NavigationsController.php",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php",
+		"/acilia/Merlin/gulp-tasks/vog_eng/js.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/mobile_js/app.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_verticallyScrolled.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_scrollDirection.js",
+		"/acilia/Merlin/deploy/prod/front/all/buildpack.sh",
+		"/acilia/Merlin/deploy/prod/backend/all/buildpack.sh",
+		"/acilia/Merlin/deploy/preprod/front/all/buildpack.sh",
+		"/acilia/Merlin/deploy/preprod/backend/all/buildpack.sh",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/base_fullwidth.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout_fullwidth.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Decorators/VF Gallery Fullscreen Decorator.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/base/base.html.twig",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/modules/site_events.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_js/modules/site_events.js",
+		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/modules/site_events.js"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"outs",
+			"link",
+			"var"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dashboard.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1049,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "xmlValidatorAdmin.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gitign",
+				".gitignore"
+			],
+			[
+				"appscss",
+				"sass/app.scss"
+			],
+			[
+				"node_modules/bulma/bulma.sass",
+				"node_modules/bulma/bulma.sass"
+			],
+			[
+				"vogmobilechaumet2017t",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Freepages/VOG CHAUMET 2017.twig"
+			],
+			[
+				"vogmobileapp.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_js/app.js"
+			],
+			[
+				"vogappjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/app.js"
+			],
+			[
+				"vogchaumetscss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/chaumet2017.scss"
+			],
+			[
+				"vogchaumet",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG CHAUMET 2017.twig"
+			],
+			[
+				"vogjsjs",
+				"Merlin/gulp-tasks/vog/js.js"
+			],
+			[
+				"vogapp.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/app.js"
+			],
+			[
+				"vanityappjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/app.js"
+			],
+			[
+				"vanityasseti",
+				"Merlin/app/config/vanity/assetic.yml"
+			],
+			[
+				"baseimagep",
+				"Merlin/src/Merlin/BackendBundle/Entity/Base/BaseImageEntity.php"
+			],
+			[
+				"gqappjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/app.js"
+			],
+			[
+				"packaj",
+				"Merlin/package.json"
+			],
+			[
+				"vanityjsjs",
+				"Merlin/gulp-tasks/vanity/js.js"
+			],
+			[
+				"vendor/jquery.fullpage.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/vendor/jquery.fullpage.js"
+			],
+			[
+				"vfchaumettw",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Templates/Freepages/VF CHAUMET 2017.twig"
+			],
+			[
+				"vanitychaumetjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/freepages/chaumet2017.js"
+			],
+			[
+				"vanityasset",
+				"Merlin/app/config/vanity/assetic.yml"
+			],
+			[
+				"gqapp.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/app.js"
+			],
+			[
+				"vanityapp.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/app.js"
+			],
+			[
+				"common/css/vendor/jquery.fullpage.css",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/css/vendor/jquery.fullpage.css"
+			],
+			[
+				"public/vanity/css/app.scss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/css/app.scss"
+			],
+			[
+				"vanitychaumetscss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/css/_freepages/_chaumet2017.scss"
+			],
+			[
+				"vogchaumetjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/chaumet_2017.js"
+			],
+			[
+				"vanitybasehtml",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/base.html.twig"
+			],
+			[
+				"vanitychaumet",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Templates/Freepages/VF CHAUMET 2017.twig"
+			],
+			[
+				"habillage-gq.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/DFP/v2/mocks/adUnits/habillage-gq.js"
+			],
+			[
+				"dfp",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/common/Scripts/dfp.html.twig"
+			],
+			[
+				"gqbaseamp",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Default/base/amp_base.html.twig"
+			],
+			[
+				"gqampcompo",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/components.html.twig"
+			],
+			[
+				"gqampgallery",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/gq_amp/Templates/Galleries/GQ Gallery.twig"
+			],
+			[
+				"balenciagasepscss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/balenciaga2017_sept.scss"
+			],
+			[
+				"vogbalenciagasepttw",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG Balenciaga 2017 Sept.twig"
+			],
+			[
+				"common/js/gigya.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/Gigya.js"
+			],
+			[
+				"vogloversjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/vogue_lovers_cntlr.js"
+			],
+			[
+				"speakers_alphabet",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/speakers_alphabet.html.twig"
+			],
+			[
+				"blocksvff2017programme_day",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/programme_day.html.twig"
+			],
+			[
+				"vogenvff2017programme",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_eng_mobile/Templates/Freepages/VOG EN VFF 2017 - Programme.twig"
+			],
+			[
+				"vff2017/programme_day.html",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/programme_day.html.twig"
+			],
+			[
+				"vff2017programme",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Freepages/VOG VFF 2017 - Programme.twig"
+			],
+			[
+				"vffprogramme",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG VFF 2017 - Programme.twig"
+			],
+			[
+				"voggallery/content.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/Components/Gallery/content.html.twig"
+			],
+			[
+				"gallery/content.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Gallery/content.html.twig"
+			],
+			[
+				"voggallerytemplate",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_mobile/Templates/Galleries/VOG Gallery Template.twig"
+			],
+			[
+				"voggalleryjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/modules/gallery.js"
+			],
+			[
+				"voggallery",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog_amp/Templates/Galleries/VOG Gallery Fullscreen Template.twig"
+			],
+			[
+				"vanityconfig",
+				"Merlin/app/config/vanity/config.yml"
+			],
+			[
+				"vogampbase",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/amp_base.html.twig"
+			],
+			[
+				"vanitymobilebase",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/mobile_base.html.twig"
+			],
+			[
+				"vanitychaumettwig",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Templates/Freepages/VF CHAUMET 2017.twig"
+			],
+			[
+				"vogcssjs",
+				"Merlin/gulp-tasks/vog/css.js"
+			],
+			[
+				"gqmenujs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/modules/a_concours.js"
+			],
+			[
+				"gqcontent",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php"
+			],
+			[
+				"vognavicontroller",
+				"Merlin/src/Merlin/BackendBundle/Controller/vog/NavigationsController.php"
+			],
+			[
+				"vogchaumet2017scss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/chaumet2017.scss"
+			],
+			[
+				"chaumetjs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/js/controllers/chaumet_2017.js"
+			],
+			[
+				"vfchaumet",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity_mobile/Templates/Freepages/VF CHAUMET 2017.twig"
+			],
+			[
+				"a_verticallyscrolled",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_verticallyScrolled.js"
+			],
+			[
+				"ascrolldirection",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_scrollDirection.js"
+			],
+			[
+				"layout_fullwidth",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout_fullwidth.html.twig"
+			],
+			[
+				"vanitylayout.html",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout.html.twig"
+			],
+			[
+				"mgallerydecorat",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Decorators/VF Gallery Fullscreen Decorator.twig"
+			],
+			[
+				"public/vanity/mobile_js/app.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vanity/mobile_js/app.js"
+			],
+			[
+				"chaumet_2017.js",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/controllers/chaumet_2017.js"
+			],
+			[
+				"vfchaumettwi",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Templates/Freepages/VF CHAUMET 2017.twig"
+			],
+			[
+				"social_bar_mobile",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/social_bar_mobile.html.twig"
+			],
+			[
+				"/gq/default/base.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Default/base.html.twig"
+			],
+			[
+				"gitignore",
+				"Merlin/.gitignore"
+			],
+			[
+				"adservicesamp",
+				"Merlin/src/Merlin/BackendBundle/Resources/config/gq/services_amp.yml"
+			],
+			[
+				"gqserviceamp",
+				"Merlin/src/Merlin/BackendBundle/Resources/config/gq/services_amp.yml"
+			],
+			[
+				"ampexte",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/AMP/AMPExtension.php"
+			],
+			[
+				"gqconfig",
+				"Merlin/app/config/gq/config_dev.yml"
+			],
+			[
+				"gqconfigyml",
+				"Merlin/app/config/gq/config.yml"
+			],
+			[
+				"/amp/_base.scss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/css/amp/_base.scss"
+			],
+			[
+				"related_gallery",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/related_gallery.html.twig"
+			],
+			[
+				"ampimage",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/AMP/AMPImageExtension.php"
+			],
+			[
+				"gqdeccon",
+				"Merlin/app/cache/gq/dev/appDevDebugProjectContainer.php"
+			],
+			[
+				"fullscreenamp",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/fullscreen_amp_image.html.twig"
+			],
+			[
+				"gqcomponen",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/components.html.twig"
+			],
+			[
+				"content/inline_amp_image.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/inline_amp_image.html.twig"
+			],
+			[
+				"content/inline_image.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/inline_image.html.twig"
+			],
+			[
+				"gqbaseampba",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Default/base/amp_base.html.twig"
+			],
+			[
+				"gqamparticle",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/gq_amp/Templates/Articles/GQ Article Long.twig"
+			],
+			[
+				"fullscreen_amp_image.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/fullscreen_amp_image.html.twig"
+			],
+			[
+				"gqampgall",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/gq_amp/Templates/Galleries/GQ Gallery.twig"
+			],
+			[
+				"ampima",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/AMP/AMPImageExtension.php"
+			],
+			[
+				"ampexten",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/AMP/AMPExtension.php"
+			],
+			[
+				"content/fullscreen_image",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/fullscreen_image.html.twig"
+			],
+			[
+				"amparticle",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/css/amp/_article.scss"
+			],
+			[
+				"articlephp",
+				"Merlin/src/Merlin/BackendBundle/Entity/Articles.php"
+			],
+			[
+				"components/content/related_gallery.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/related_gallery.html.twig"
+			],
+			[
+				"components/content/related_gallery",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/related_gallery.html.twig"
+			],
+			[
+				"components/content/quotes.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Content/quotes.html.twig"
+			],
+			[
+				"gqcontentexte",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php"
+			],
+			[
+				"gqamp/fonts.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/fonts.html.twig"
+			],
+			[
+				"gqcssjs",
+				"Merlin/gulp-tasks/gq/css.js"
+			],
+			[
+				"amp/css/fonts.css.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Amp/css/fonts.css.twig"
+			],
+			[
+				"gqservices",
+				"Merlin/src/Merlin/BackendBundle/Resources/config/gq/services_amp.yml"
+			],
+			[
+				"gqconf",
+				"Merlin/app/config/gq/config.yml"
+			],
+			[
+				"gqampcontroler",
+				"Merlin/src/Merlin/BackendBundle/Controller/gq/AMPController.php"
+			],
+			[
+				"ampextensio",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/AMP/AMPExtension.php"
+			],
+			[
+				"gqbasebase",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Default/base/base.html.twig"
+			],
+			[
+				"article/content.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Article/content.html.twig"
+			],
+			[
+				"modules/next_content",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/modules/next_content.js"
+			],
+			[
+				"inline_images",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/controllers/article/inline_images.js"
+			],
+			[
+				"animate_images",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/controllers/article/animate_images.js"
+			],
+			[
+				"gqarticlecnt",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/controllers/article/article_cntlr.js"
+			],
+			[
+				"voggalleryfull",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Galleries/VOG Gallery Fullscreen Template.twig"
+			],
+			[
+				"vogconfig.yml",
+				"Merlin/app/config/vog/config.yml"
+			],
+			[
+				"components/article/content.html.twig",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/gq/Blocks/Components/Article/content.html.twig"
+			],
+			[
+				"gqarticle",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/gq/Templates/Articles/GQ Article Long.twig"
+			],
+			[
+				"gqcontentext",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php"
+			],
+			[
+				"vogbase",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/base.html.twig"
+			],
+			[
+				"gqcontentex",
+				"Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php"
+			],
+			[
+				"balenciagasep",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG Balenciaga 2017 Sept.twig"
+			],
+			[
+				"balenciagajs",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/js/ops/balenciaga2017_sept.js"
+			],
+			[
+				"vogmaindo",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Decorators/VOG Main Decorator.twig"
+			],
+			[
+				"asocialshare",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_socialShare.js"
+			],
+			[
+				"vogvffprogramme",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG VFF 2017 - Programme.twig"
+			],
+			[
+				"vog_vff_2016_programme_eachtalk",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Bricks/vog_vff_2016_programme_eachtalk.twig"
+			],
+			[
+				"vog_vff_2016_programme_day",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Bricks/vog_vff_2016_programme_day.twig"
+			],
+			[
+				"vogvffprogra",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG VFF 2016 - Programme.twig"
+			],
+			[
+				"vogcontents/_blocks.scss",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/contents/_blocks.scss"
+			],
+			[
+				"balencise",
+				"Merlin/src/Merlin/BackendBundle/Resources/public/vog/css/freepages/balenciaga2017_sept.scss"
+			],
+			[
+				"vogbalenciaga",
+				"Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Freepages/VOG Balenciaga 2017.twig"
+			],
+			[
+				"content_header.html",
+				"Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/VFF2017/content_header.html.twig"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
+			],
+			[
+				"mer",
+				"/acilia/Merlin/Merlin.sublime-project"
+			],
+			[
+				"xml",
+				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
+			],
+			[
+				"xm",
+				"/acilia/xmlvalidator/xmlvalidator.sublime-project"
+			],
+			[
+				"lle",
+				"/acilia/Merlin/llevaTilde.sublime-project"
+			],
+			[
+				"lleva",
+				"/acilia/Merlin/llevaTilde.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
