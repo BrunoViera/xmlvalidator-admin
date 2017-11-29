@@ -6,7 +6,6 @@
   <meta name="google-signin-client_id" content="188877190503-873ktnjqsmjjpj87f6vfkvs2jnrh1aj7.apps.googleusercontent.com">
   <title>XMLValidator Admin</title>
   <link rel="stylesheet" href="/css/app.css">
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
   <section class="hero is-warning is-bold is-fullheight">
@@ -18,8 +17,7 @@
         <p class="subtitle">XML Validator is a small tool that helps you to check the health of your RSS.</p>
         <p class="subtitle">It's a free tool, so feel free to login and take a look</p>
         <br>
-        <h4 class="subtitle title is-4">Sign-in</h4>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <button id="btn-login" class="subtitle title">Sign-in</button>
       </div>
     </div>
     <div class="hero-foot">
@@ -30,5 +28,9 @@
     </div>
   </div>
 </section>
+
+<script src="https://cdn.auth0.com/js/auth0/8.10.1/auth0.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+
 </body>
 </html>

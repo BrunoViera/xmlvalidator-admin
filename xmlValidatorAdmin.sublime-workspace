@@ -396,19 +396,37 @@
 	"buffers":
 	[
 		{
-			"file": "index.js",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 443,
+				"buffer_size": 646,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/routes/routes.js",
+			"file": "app/views/app/layout.ejs",
 			"settings":
 			{
-				"buffer_size": 312,
+				"buffer_size": 926,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/site/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1365,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2547,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -422,9 +440,29 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "prefe",
+		"last_filter": "reide",
 		"selected_items":
 		[
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ejs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"riede",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reid",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"prefe",
 				"Preferences: Settings"
@@ -434,16 +472,8 @@
 				"JsPrettier: Format Code"
 			],
 			[
-				"reide",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"sass",
 				"Set Syntax: Sass"
-			],
-			[
-				"html",
-				"Set Syntax: HTML"
 			],
 			[
 				"REIDE",
@@ -456,10 +486,6 @@
 			[
 				"packa",
 				"Package Control: List Packages"
-			],
-			[
-				"reid",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"jspre",
@@ -610,10 +636,21 @@
 	},
 	"expanded_folders":
 	[
-		"/acilia/xmlvalidator-admin"
+		"/acilia/xmlvalidator-admin",
+		"/acilia/xmlvalidator-admin/app",
+		"/acilia/xmlvalidator-admin/app/routes",
+		"/acilia/xmlvalidator-admin/public",
+		"/acilia/xmlvalidator-admin/public/js"
 	],
 	"file_history":
 	[
+		"/acilia/xmlvalidator-admin/app/routes/routes.js",
+		"/acilia/xmlvalidator-admin/app/views/app/dashboard.ejs",
+		"/acilia/xmlvalidator-admin/app/views/app/partials/_side_bar.ejs",
+		"/acilia/xmlvalidator-admin/app/views/app/partials/_footer.ejs",
+		"/acilia/xmlvalidator-admin/app/views/site/index.ejs",
+		"/acilia/xmlvalidator-admin/app/routes/public.js",
+		"/acilia/xmlvalidator-admin/app/views/index.ejs",
 		"/acilia/xmlvalidator-admin/xmlValidatorAdmin.sublime-project",
 		"/acilia/xmlvalidator-admin/dashboard.html",
 		"/acilia/xmlvalidator-admin/sass/_base.scss",
@@ -734,18 +771,11 @@
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vanity/mobile_js/app.js",
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_verticallyScrolled.js",
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/common/js/modules/a_scrollDirection.js",
-		"/acilia/Merlin/deploy/prod/front/all/buildpack.sh",
-		"/acilia/Merlin/deploy/prod/backend/all/buildpack.sh",
-		"/acilia/Merlin/deploy/preprod/front/all/buildpack.sh",
-		"/acilia/Merlin/deploy/preprod/backend/all/buildpack.sh",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/base_fullwidth.html.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout_fullwidth.html.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity/Decorators/VF Gallery Fullscreen Decorator.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/layout.html.twig"
+		"/acilia/Merlin/deploy/prod/front/all/buildpack.sh"
 	],
 	"find":
 	{
-		"height": 87.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -759,6 +789,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"logout",
+			"homeView",
+			"loginStatus",
+			"logoutBtn",
+			"loginBtn",
+			"btn-login",
+			"Sign-in",
+			"onSignIn",
+			"var",
 			"\":\n",
 			"})",
 			"var",
@@ -782,24 +821,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.js",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 443,
+						"buffer_size": 646,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								367,
+								367
 							]
 						],
 						"settings":
@@ -811,34 +850,99 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/routes/routes.js",
+					"file": "app/views/app/layout.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 312,
+						"buffer_size": 926,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								279,
-								279
+								438,
+								438
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/site/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								913,
+								913
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1194,
+								1194
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

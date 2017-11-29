@@ -9,11 +9,11 @@ const router = express.Router();
 
 // SITE
 router.get('/', function(req, res) {
-    res.render('site/index');
+    res.render('site/index', { layout: false });
 });
 
 // APP
-router.get('/dashboard', function(req, res) {
+router.get('/app/', function(req, res) {
     res.render('app/dashboard');
 });
 
