@@ -17,4 +17,8 @@ router.get('/app/', function(req, res) {
     res.render('app/dashboard');
 });
 
+router.get('/app/user', function(req, res) {
+    res.render('app/dashboard');
+});
+
 module.exports = router;
