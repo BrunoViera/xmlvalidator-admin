@@ -97,18 +97,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 const webAuth = new auth0.WebAuth(__WEBPACK_IMPORTED_MODULE_0__modules_webAuthConfig_js__["a" /* default */]);
 let user = null;
 
-function logout() {
-    __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__["a" /* default */].logout();
-}
-
-// sideBarHandler.init();
-
-window.addEventListener('load', function() {
-    // user = sessionHandler.handleAuthentication();
-    // console.warn(user);
+window.addEventListener('DOMContentLoaded', async function() {
+    __WEBPACK_IMPORTED_MODULE_2__modules_sidebarHandler_js__["a" /* default */].init();
+    const allGood = await __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__["a" /* default */].init();
+    if (allGood) {
+        user = await __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__["a" /* default */].getUser();
+        console.log(user);
+    } else {
+        window.location = '/';
+    }
 });
-
-document.getElementById('logoutBtn').addEventListener('click', logout);
 
 
 /***/ }),
@@ -120,59 +118,54 @@ document.getElementById('logoutBtn').addEventListener('click', logout);
 
 
 const webAuth = new auth0.WebAuth(__WEBPACK_IMPORTED_MODULE_0__webAuthConfig_js__["a" /* default */]);
-let user = null;
+const clientID = 'kQg3yYWoD4d8YaNVLNC1Pf82uRV7br67';
 
 function logout() {
-    // Remove tokens and expiry time from localStorage
     localStorage.removeItem('access_token');
     localStorage.removeItem('id_token');
     localStorage.removeItem('expires_at');
-    window.location.href = '/';
-}
-
-function setSession(authResult) {
-    // Set the time that the access token will expire at
-    const expiresAt = JSON.stringify(authResult.expiresIn * 1000 + new Date().getTime());
-    localStorage.setItem('access_token', authResult.accessToken);
-    localStorage.setItem('id_token', authResult.idToken);
-    localStorage.setItem('expires_at', expiresAt);
-}
-
-function handleAuthentication() {
-    webAuth.parseHash(function(err, authResult) {
-        if (authResult && authResult.accessToken && authResult.idToken) {
-            window.location.hash = '';
-            setSession(authResult);
-        } else if (err) {
-            console.log(err);
-        } else {
-            const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-            if (new Date().getTime() > expiresAt) {
-                webAuth.authorize();
-            }
-        }
-        setUser();
-        return true;
-    });
-    return getUser();
-}
-
-function setUser() {
-    const accessToken = localStorage.getItem('access_token');
-    webAuth.client.userInfo(accessToken, function(err, profile) {
-        if (profile) {
-            user = profile;
-        } else if (err) {
-            console.error(err);
-        }
+    webAuth.logout({
+        returnTo: 'http://localhost:3000/',
+        client_id: clientID
     });
 }
 
 function getUser() {
-    return user;
+    return new Promise(resolve => {
+        webAuth.client.userInfo(localStorage.getItem('access_token'), function(err, user) {
+            if (err) {
+                window.location = '/';
+            }
+            return resolve(user);
+        });
+    });
 }
 
-/* harmony default export */ __webpack_exports__["a"] = ({ logout, handleAuthentication, getUser });
+function init() {
+    return new Promise(resolve => {
+        webAuth.parseHash(function(err, authResult) {
+            if (err) {
+                console.log('sessionHandler init() error, ', err);
+                return resolve(false);
+            } else if (authResult && authResult.accessToken && authResult.idToken) {
+                window.location.hash = '';
+                const expiresAt = JSON.stringify(authResult.expiresIn * 1000 + new Date().getTime());
+                localStorage.setItem('access_token', authResult.accessToken);
+                localStorage.setItem('id_token', authResult.idToken);
+                localStorage.setItem('expires_at', expiresAt);
+            } else {
+                const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
+                if (new Date().getTime() > expiresAt) {
+                    console.log('expires_at vencido');
+                    return resolve(false);
+                }
+            }
+            return resolve(true);
+        });
+    });
+}
+
+/* harmony default export */ __webpack_exports__["a"] = ({ init, logout, getUser });
 
 
 /***/ }),
@@ -180,6 +173,9 @@ function getUser() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__sessionHandler_js__ = __webpack_require__(3);
+
+
 function goHome() {
     document.querySelector('.js-sb a.is-active').classList.remove('is-active');
     document.getElementById('js-sb_home').classList.add('is-active');
@@ -194,11 +190,12 @@ function newXml() {
 }
 
 function init() {
+    document.getElementById('js-sb_logout').addEventListener('click', __WEBPACK_IMPORTED_MODULE_0__sessionHandler_js__["a" /* default */].logout);
     document.getElementById('js-sb_home').addEventListener('click', goHome);
     document.getElementById('js-sb_new-xml').addEventListener('click', newXml);
 }
 
-/* unused harmony default export */ var _unused_webpack_default_export = ({ init });
+/* harmony default export */ __webpack_exports__["a"] = ({ init });
 
 
 /***/ })

@@ -5,15 +5,13 @@ import sideBarHandler from './modules/sidebarHandler.js';
 const webAuth = new auth0.WebAuth(webAuthConfig);
 let user = null;
 
-function logout() {
-    sessionHandler.logout();
-}
-
-// sideBarHandler.init();
-
-window.addEventListener('load', function() {
-    // user = sessionHandler.handleAuthentication();
-    // console.warn(user);
+window.addEventListener('DOMContentLoaded', async function() {
+    sideBarHandler.init();
+    const allGood = await sessionHandler.init();
+    if (allGood) {
+        user = await sessionHandler.getUser();
+        console.log(user);
+    } else {
+        window.location = '/';
+    }
 });
-
-document.getElementById('logoutBtn').addEventListener('click', logout);

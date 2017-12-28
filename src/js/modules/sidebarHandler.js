@@ -1,3 +1,5 @@
+import sessionHandler from './sessionHandler.js';
+
 function goHome() {
     document.querySelector('.js-sb a.is-active').classList.remove('is-active');
     document.getElementById('js-sb_home').classList.add('is-active');
@@ -12,6 +14,7 @@ function newXml() {
 }
 
 function init() {
+    document.getElementById('js-sb_logout').addEventListener('click', sessionHandler.logout);
     document.getElementById('js-sb_home').addEventListener('click', goHome);
     document.getElementById('js-sb_new-xml').addEventListener('click', newXml);
 }
