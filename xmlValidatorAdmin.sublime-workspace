@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"func",
+				"function_with_name"
+			],
+			[
+				"session",
+				"sessionHandler"
+			],
+			[
+				"isa",
+				"isAuthenticated"
+			],
+			[
+				"web",
+				"webAuthConfig"
+			],
+			[
 				"inline",
 				"inline-block"
 			],
@@ -14,10 +30,6 @@
 			[
 				"nextI",
 				"nextIndex"
-			],
-			[
-				"func",
-				"function_with_name"
 			],
 			[
 				"styl",
@@ -396,28 +408,19 @@
 	"buffers":
 	[
 		{
-			"file": "src/js/site.js",
+			"file": "app/views/app/dashboard.ejs",
 			"settings":
 			{
-				"buffer_size": 1601,
+				"buffer_size": 2054,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/js/modules/webAuth.js",
+			"file": "src/js/modules/sidebarHandler.js",
 			"settings":
 			{
-				"buffer_size": 61,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 240,
+				"buffer_size": 45,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -426,7 +429,7 @@
 			"file": "src/js/app.js",
 			"settings":
 			{
-				"buffer_size": 900,
+				"buffer_size": 513,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -439,17 +442,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "",
+		"height": 210.0,
+		"last_filter": "merlin",
 		"selected_items":
 		[
+			[
+				"merlin",
+				"Material Theme: Info"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
 			[
 				"reide",
 				"Indentation: Reindent Lines"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
+				"jshin",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
 			],
 			[
 				"ejs",
@@ -482,10 +497,6 @@
 			[
 				"install ",
 				"Package Control: Install Package"
-			],
-			[
-				"packa",
-				"Package Control: List Packages"
 			],
 			[
 				"jspre",
@@ -637,24 +648,32 @@
 	"expanded_folders":
 	[
 		"/acilia/xmlvalidator-admin",
-		"/acilia/xmlvalidator-admin/public",
+		"/acilia/xmlvalidator-admin/app",
 		"/acilia/xmlvalidator-admin/src",
-		"/acilia/xmlvalidator-admin/src/js"
+		"/acilia/xmlvalidator-admin/src/js",
+		"/acilia/xmlvalidator-admin/src/js/modules"
 	],
 	"file_history":
 	[
-		"/acilia/xmlvalidator-admin/gulpfile.js",
+		"/acilia/xmlvalidator-admin/app/views/app/partials/_side_bar.ejs",
+		"/acilia/xmlvalidator-admin/app/views/app/partials/_footer.ejs",
 		"/acilia/xmlvalidator-admin/package.json",
+		"/acilia/xmlvalidator-admin/src/js/app.js",
+		"/acilia/xmlvalidator-admin/src/js/modules/sessionHandler.js",
+		"/acilia/xmlvalidator-admin/webpack.config.js",
+		"/acilia/xmlvalidator-admin/app/routes/routes.js",
+		"/acilia/xmlvalidator-admin/src/js/site.js",
+		"/acilia/xmlvalidator-admin/src/js/modules/webAuth.js",
+		"/acilia/xmlvalidator-admin/.jshintrc",
+		"/Users/Bruce/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/acilia/xmlvalidator-admin/gulpfile.js",
 		"/acilia/xmlvalidator-admin/package-lock.json",
 		"/acilia/xmlvalidator-admin/src/sass/app.scss",
 		"/acilia/xmlvalidator-admin/src/sass/_variables.scss",
-		"/acilia/xmlvalidator-admin/app/views/app/partials/_side_bar.ejs",
 		"/acilia/xmlvalidator-admin/app/views/app/layout.ejs",
 		"/acilia/xmlvalidator-admin/app/views/site/index.ejs",
-		"/acilia/xmlvalidator-admin/app/routes/routes.js",
 		"/acilia/xmlvalidator-admin/app.js",
 		"/acilia/xmlvalidator-admin/app/views/app/dashboard.ejs",
-		"/acilia/xmlvalidator-admin/app/views/app/partials/_footer.ejs",
 		"/acilia/xmlvalidator-admin/app/routes/public.js",
 		"/acilia/xmlvalidator-admin/app/views/index.ejs",
 		"/acilia/xmlvalidator-admin/xmlValidatorAdmin.sublime-project",
@@ -763,14 +782,7 @@
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Default/amp_base.html.twig",
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vog/Blocks/Amp/structured_data.html.twig",
 		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/views/vanity/Default/mobile_base.html.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity_mobile/Templates/Freepages/VF CHAUMET 2017.twig",
-		"/acilia/Merlin/gulp-tasks/vog/css.js",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/vog/mobile_css/freepages/chaumet2017.scss",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Resources/public/gq/js/modules/a_concours.js",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Repository/NavigationsRepository.php",
-		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vog/Templates/Navigations/VOG HR Lovers.twig",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Controller/vog/NavigationsController.php",
-		"/acilia/Merlin/src/Merlin/BackendBundle/Twig/Extensions/GQ/ContentExtension.php"
+		"/acilia/Merlin/src/Merlin/BackendBundle/DataFixtures/Templates/vanity_mobile/Templates/Freepages/VF CHAUMET 2017.twig"
 	],
 	"find":
 	{
@@ -788,6 +800,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"column",
+			"columnscolumn",
+			"columns",
+			"checkAuthentication",
+			"handleAuthentication",
+			"handleAuthentication();",
+			"isAuthenticated",
+			"is",
+			"isAuthenticated",
+			"access_token",
+			"user",
+			"esversion",
 			"token",
 			"tocker",
 			"accessToken",
@@ -830,51 +854,50 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/js/site.js",
+					"file": "app/views/app/dashboard.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1601,
+						"buffer_size": 2054,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								106,
+								106
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/js/modules/webAuth.js",
+					"file": "src/js/modules/sidebarHandler.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 61,
+						"buffer_size": 45,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								45,
+								45
 							]
 						],
 						"settings":
@@ -892,64 +915,31 @@
 				},
 				{
 					"buffer": 2,
-					"file": "webpack.config.js",
+					"file": "src/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 240,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								135,
+								135
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 900,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								776,
-								776
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -991,6 +981,10 @@
 		"height": 168.0
 	},
 	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
 	{
 		"height": 0.0
 	},
@@ -1525,15 +1519,19 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "mer",
 		"selected_items":
 		[
 			[
-				"",
+				"mer",
 				"/acilia/Merlin/Merlin.sublime-project"
 			],
 			[
-				"mer",
+				"merlin",
+				"/acilia/Merlin/Merlin.sublime-project"
+			],
+			[
+				"",
 				"/acilia/Merlin/Merlin.sublime-project"
 			],
 			[

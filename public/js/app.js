@@ -89,6 +89,8 @@ const config = {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__modules_webAuthConfig_js__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modules_sidebarHandler_js__ = __webpack_require__(4);
+
 
 
 
@@ -99,8 +101,11 @@ function logout() {
     __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__["a" /* default */].logout();
 }
 
+// sideBarHandler.init();
+
 window.addEventListener('load', function() {
-    __WEBPACK_IMPORTED_MODULE_1__modules_sessionHandler_js__["a" /* default */].handleAuthentication();
+    // user = sessionHandler.handleAuthentication();
+    // console.warn(user);
 });
 
 document.getElementById('logoutBtn').addEventListener('click', logout);
@@ -142,23 +147,14 @@ function handleAuthentication() {
             console.log(err);
         } else {
             const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-            if (new Date().getTime() < expiresAt) {
+            if (new Date().getTime() > expiresAt) {
                 webAuth.authorize();
             }
         }
         setUser();
+        return true;
     });
-}
-
-function checkAuthentication() {
-    // Check whether the current time is past the
-    // access token's expiry time
-    const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-    if (new Date().getTime() < expiresAt) {
-        webAuth.authorize();
-    } else {
-        setUser();
-    }
+    return getUser();
 }
 
 function setUser() {
@@ -177,6 +173,32 @@ function getUser() {
 }
 
 /* harmony default export */ __webpack_exports__["a"] = ({ logout, handleAuthentication, getUser });
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+function goHome() {
+    document.querySelector('.js-sb a.is-active').classList.remove('is-active');
+    document.getElementById('js-sb_home').classList.add('is-active');
+    document.querySelector('.js-panel:not(.is-hidden)').classList.add('is-hidden');
+    document.getElementById('xml-list').classList.remove('is-hidden');
+}
+function newXml() {
+    document.querySelector('.js-sb a.is-active').classList.remove('is-active');
+    document.getElementById('js-sb_new-xml').classList.add('is-active');
+    document.querySelector('.js-panel:not(.is-hidden)').classList.add('is-hidden');
+    document.getElementById('xml-new').classList.remove('is-hidden');
+}
+
+function init() {
+    document.getElementById('js-sb_home').addEventListener('click', goHome);
+    document.getElementById('js-sb_new-xml').addEventListener('click', newXml);
+}
+
+/* unused harmony default export */ var _unused_webpack_default_export = ({ init });
 
 
 /***/ })

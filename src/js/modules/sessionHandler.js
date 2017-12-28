@@ -28,23 +28,14 @@ function handleAuthentication() {
             console.log(err);
         } else {
             const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-            if (new Date().getTime() < expiresAt) {
+            if (new Date().getTime() > expiresAt) {
                 webAuth.authorize();
             }
         }
         setUser();
+        return true;
     });
-}
-
-function checkAuthentication() {
-    // Check whether the current time is past the
-    // access token's expiry time
-    const expiresAt = JSON.parse(localStorage.getItem('expires_at'));
-    if (new Date().getTime() < expiresAt) {
-        webAuth.authorize();
-    } else {
-        setUser();
-    }
+    return getUser();
 }
 
 function setUser() {

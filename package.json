@@ -4,7 +4,7 @@
   "description": "Admin page for XMLValidator Site",
   "main": "index.js",
   "dependencies": {
-    "bulma": "^0.6.0",
+    "bulma": "^0.6.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-ejs-layouts": "^2.3.1",
